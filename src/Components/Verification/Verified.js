@@ -42,7 +42,7 @@ function Verified() {
 
 function countdown(ctr) {
     if (ctr<=0) {
-        window.location.href = 'https://d3crypt.ieeemanipal.com/signin';
+        window.location.href = 'http://localhost:3000/signin';
     }
     if (ctr!=0) {
     setCtr(ctr-1);
